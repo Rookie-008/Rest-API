@@ -1,0 +1,21 @@
+PDO (PHP DATA OBJECTS)
+
+The PHP Data Objects (PDO) extension is typically enabled by default in modern PHP installations, but you must manually enable or install specific database drivers (e.g., MySQL, PostgreSQL) to use it. 
+
+1. Linux (Ubuntu/Debian)
+   Use the package manager to install the PDO driver for your specific database. 
+   MySQL      : sudo apt-get install php-mysql
+   PostgreSQL : sudo apt-get install php-pgsql
+   SQLite     : Typically included by default. 
+
+2. Windows (XAMPP/WAMP/Manual)
+   PDO is already included; you just need to enable the drivers in your php.ini file. 
+   Locate your php.ini file (often in the PHP installation folder or found via phpinfo()).
+   Search for the extensions list and remove the semicolon (;) at the start of the line for your
+   database:
+   extension=pdo_mysql
+   extension=pdo_pgsql
+   extension=pdo_sqlite
+   
+3. Restart your web server (Apache, Nginx, or IIS) for changes to take effect. 
+

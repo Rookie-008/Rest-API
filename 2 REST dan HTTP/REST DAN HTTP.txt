@@ -1,0 +1,42 @@
+REST DAN HTTP
+
+1. REST API
+   REST API (Representational State Transfer) adalah gaya arsitektur perangkat lunak untuk komunikasi antar sistem yang efisien
+   melalui HTTP, sering digunakan dalam layanan web. Ini memungkinkan aplikasi klien (mobile/web) bertukar data dengan server
+   menggunakan metode standar seperti GET, POST, PUT, dan DELETE, umumnya dalam format JSON.
+
+
+   => Karakteristik Utama REST API:
+
+      - Berbasis HTTP: Menggunakan metode HTTP standar (GET untuk membaca, POST untuk membuat, PUT untuk memperbarui, DELETE untuk
+        menghapus).
+      - Format Data: Mengirim dan menerima data, biasanya dalam format JSON, meskipun XML atau HTML juga dimungkinkan.
+      - Tanpa Status (Stateless): Setiap permintaan (request) dari klien ke server harus memuat semua informasi yang diperlukan
+        untuk memahami dan memproses permintaan tersebut.
+      - URI (Uniform Resource Identifier):  Menggunakan URL yang unik untuk mengakses sumber daya (resources). 
+
+   => Cara Kerja REST API:
+      1. Request  : Klien (aplikasi web/mobile) mengirimkan permintaan HTTP ke URL spesifik.
+      2. Proses   : Server menerima permintaan, memprosesnya, dan melakukan tindakan (misalnya, mengakses database).
+      3. Response : Server mengirimkan respons kembali ke klien, sering kali dalam bentuk JSON.
+
+   REST API adalah standar industri yang umum digunakan saat ini, yang membedakannya dari pendekatan lama seperti SOAP yang lebih
+   ketat. 
+
+
+
+2. HTTP (Hypertext Transfer Protocol)
+   HTTP (Hypertext Transfer Protocol) adalah protokol lapisan aplikasi yang menjadi dasar komunikasi data di World Wide Web,
+   memungkinkan pertukaran data (teks, gambar, video) antara klien (browser) dan server. HTTP menggunakan model request-response
+   untuk mengambil atau mengirim data secara stateless. HTTP beroperasi tanpa enkripsi, sedangkan HTTPS adalah versi aman yang
+   mengenkripsi data.
+
+   Poin Penting HTTP:
+   - Fungsi      : Mengatur aturan pertukaran informasi antara browser (user) dan web server.
+   - Cara Kerja  : Klien mengirimkan request (perintah) ke server, dan server mengirimkan response berupa data yang diminta.
+   - Metode Umum : Metode GET digunakan untuk mengambil data, sementara POST digunakan untuk mengirimkan data.
+   - Stateless   : Setiap permintaan dianggap independen, server tidak menyimpan status interaksi sebelumnya.
+   - Keamanan    : HTTP mengirimkan data dalam teks biasa, membuatnya rentan terhadap penyadapan, berbeda dengan HTTPS yang
+                   dienkripsi.
+
+   HTTP dirancang untuk fleksibilitas dalam mengirimkan dokumen hiperteks yang terhubung ke sumber daya lain.

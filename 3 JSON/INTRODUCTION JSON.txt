@@ -1,0 +1,82 @@
+INTRODUCTION JSON
+
+Tipe Data dari Value pada JSON / Tipe data yang bisa disimpan pada JSON
+- Boolean - true/false
+- Array   - ["value1", "value2", ...]
+- String  - teks/unicode
+- Object  - {"key" : "value"}
+- Number  - integer/float
+- Null    - null
+
+PHP
+- json_encode()
+- json_decode()
+  
+Mengakses JSON
+- file_get_contents()
+
+
+
+CONTOH SCRIPT
+- json_encode()
+  Mengubah array assosciative menjadi JSON
+  
+  Contoh Script :
+  $data = [
+  	"a" => 1,
+  	"b" => 2,
+  	"c" => 3
+  ];
+  
+  echo json_encode($data)
+  
+- file_get_contents() & json decode()
+  Membaca file JSON, lalu mengubahnya menjadi array associative
+  
+  Contoh Script :
+  -> ambil data json dari file
+     $contents = file_get_contents('data.json');
+  -> ubah standar encoding
+     $contents = utf_encode($contents);
+  -> ubah string json menjadi array associative
+     $results = json_decode($contents, true)
+     
+
+
+JAVASCRIPT
+- JSON.stringify()
+- JSON.parse()
+
+Mengakses JSON
+- AJAX
+  - XMLHttpRequest
+  - JQuery (Ketik JQuerry cdn di Google lalu pilih uncompressed)
+  
+CONTOH SCRIPT
+- JSON.stringify()
+  Mengubah object javascript menjadi JSON
+  -> Contoh Script :
+     var data = {
+     	a : '1',
+     	b : '2',
+     	c : '3'
+     }
+     
+     console.log(JSON.stringify(data));
+     
+- JSON.parse()
+  Merequest file JSON lalu mengubahnya menjadi object (Menggunakan XMLHttpRequest)
+  -> Contoh Script :
+     var xhr = new XMLHttpRequest();
+     xhr.onreadystatechange = function() {
+     	if ( xhr.readyState === 4 && xhr.status === 200 ) {
+     		var data = JSON.parse(this.responseText);
+     		console.log(data);
+     	}
+     }
+     xhr.open('GET','data2.json',true);
+     xhr.send();
+
+- Menggunakan JQuerry
+  - Ketik JQuerry cdn di Google lalu pilih uncompressed
+  - Copy Script lalu paste pada script yang ingin dijalankan

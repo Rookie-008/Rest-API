@@ -1,0 +1,15 @@
+{
+	"productName" : "Tumis Oncom Pedas",
+	"price" : 500,
+	"idProduct" : "415239",
+	"foodProduct" : true,
+	"ingredients" : [
+		"Ampas Tahu",
+		"Kacang Tanah"
+	],
+	"production" : {
+		"production1" : "Fermentasi",
+		"production2" : "Pencetakan",
+		"production3" : "Kematangan"
+	}
+}

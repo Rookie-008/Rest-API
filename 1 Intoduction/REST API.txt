@@ -1,0 +1,24 @@
+API (Application Programing Interface)
+
+API (Application Programing Interface) adalah sekumpulan fungsi, subroutine, protokol komunikasi atau tools untuk membuat perangkat lunak.
+
+SISTEM OPERASI
+- Windows API 
+  - Base Service             : kernel.dll
+  - Graphic Device Interface : win32k.sys
+  - User Interface           : user32.dll
+
+- iOS API
+  - Contact : CNMutableContact()
+  - Camera  : AVCaptureDevice()
+  
+- Android API
+  - Contact : ContactsContract.RawContacts
+  
+WEB API/WEB SERVICE
+- SOAP (Simple Object Access Protocol)
+- REST (Representational State Transfer)
+
+API Testing Tools
+- Postman (getpostman.com)
+- Insomnia (insomnia.rest)
