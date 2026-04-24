@@ -1,0 +1,145 @@
+{
+    "menu": [
+        {
+            "category": "nasi",
+            "nameProduct": "Nasi Uduk",
+            "description": "tempe orek, semur telur, ayam serundeng, bakwan sayur, taburan bawang",
+            "price": 5000,
+            "image": "nasi-uduk.jpg"
+        },
+        {
+            "category": "nasi",
+            "nameProduct": "Nasi Jinggo",
+            "description": "ayam suwir, tempe, sambal terasi, ditaburi serundeng kelapa.",
+            "price": 5000,
+            "image": "nasi-jinggo.jpg"
+        },
+        {
+            "kategori": "bubur",
+            "nameProduct": "Bubur Kacang",
+            "description": "kacang, susu, karamel.",
+            "price": 5000,
+            "image": "bubur-kacang.jpg"
+        },
+        {
+            "category": "bubur",
+            "nameProduct": "Bubur Ayam",
+            "description": "kacang goreng, ayam suwir, daun bawang.",
+            "price": 5000,
+            "image": "bubur-ayam.jpg"
+        },
+        {
+            "category": "nasi",
+            "nameProduct": "Nasi Ruwet",
+            "description": "tempe goreng, tahu goreng, ayam suwir, sayuran, cubitan telur, krupuk.",
+            "price": 5000,
+            "image": "nasi-ruwet.jpg"
+        },
+        {
+            "category": "lauk",
+            "nameProduct": "Gulai Belacan",
+            "description": "udang, ayam, telur, sambal terasi",
+            "price": 5000,
+            "image": "gulai-belacan.jpg"
+        },
+        {
+            "category": "lauk",
+            "nameProduct": "Kerak Telor",
+            "description": "telur ayam. telur bebek, ebi, bawang goreng, kelapa sangrai",
+            "price": 5000,
+            "image": "kerak-telor.jpg"
+        },
+        {
+            "category": "lauk",
+            "nameProduct": "Rawon",
+            "description": "daging sapi, telur rebus, ditaburi bawang goreng",
+            "price": 5000,
+            "image": "rawon.jpg"
+        },
+        {
+            "category": "lauk",
+            "nameProduct": "Tahu Gejrot",
+            "description": "Cubitan Cubitan Tahu yang ditaburi Cabe Hijau",
+            "price": 5000,
+            "image": "tahu-gejrot.jpg"
+        },
+        {
+            "category": "lauk",
+            "nameProduct": "Tempe Penyet",
+            "description": "ulekan tempe dengan cabe dan tomat segar ditaburi dengan daun kemangi",
+            "price": 5000,
+            "image": "tempe-penyet.jpg"
+        },
+        {
+            "category": "sayuran",
+            "nameProduct": "Pecel",
+            "description": "kacang panjang, bayam, tauge, sambal kacang, telur",
+            "price": 5000,
+            "image": "pecel.jpg"
+        },
+        {
+            "category": "sayuran",
+            "nameProduct": "Terong Balado",
+            "description": "terong goreng dengan ulekan sambal tomat",
+            "price": 5000,
+            "image": "terong-balado.jpg"
+        },
+        {
+            "category": "sayuran",
+            "nameProduct": "Tumis Rebung",
+            "description": "kacang panjang, rebung kuah santan cabe hijau",
+            "price": 5000,
+            "image": "tumis-rebung.jpg"
+        },
+        {
+            "category": "sayuran",
+            "nameProduct": "Sop Bayam",
+            "description": "sayur bayam, jagung manis, wortel, kentang",
+            "price": 5000,
+            "image": "sop-bayam.jpg"
+        },
+        {
+            "category": "sayuran",
+            "nameProduct": "Tumis Pare",
+            "description": "sayur pare, ebi, ikan teri, taburan bawang goreng",
+            "price": 5000,
+            "image": "tumis-pare.jpg"
+        },
+        {
+            "category": "minuman",
+            "nameProduct": "Es Cendol",
+            "description": "alpukat, gula merah, nata de coco, jelly, es serut",
+            "price": 5000,
+            "image": "es-cendol.jpg"
+        },
+        {
+            "category": "minuman",
+            "nameProduct": "Es Pisang Ijo",
+            "description": "pisang kepok, pisang raja, susu kental manis, sirup coco pandan",
+            "price": 5000,
+            "image": "es-pisang-ijo.jpg"
+        },
+        {
+            "category": "minuman",
+            "nameProduct": "Es Kelapa",
+            "description": "kelapa muda, jeruk nipis, susu kental manis",
+            "price": 5000,
+            "image": "es-kelapa.jpg"
+        },
+        {
+            "category": "minuman",
+            "nameProduct": "Wedang Jahe",
+            "description": "jahe, gula merah, rempah-rempah, gula pasir",
+            "price": 5000,
+            "image": "wedang-jahe.jpg"
+        },
+        {
+            "category": "minuman",
+            "nameProduct": "Kunyit Asam",
+            "description": "kunyit, asam jawa, gula merah, gula pasir",
+            "price": 5000,
+            "image": "kunyit-asam.jpg"
+        }
+    ]
+}
+
