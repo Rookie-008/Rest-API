@@ -1,0 +1,30 @@
+PUBLIC API
+
+Google API
+https://console.developers.google.com
+
+Aplikasi API
+- Facebook
+- Instagram
+- Soundcloud
+- dll.
+
+Public API
+API yang bisa diakses
+- https://any-api.com
+- https://anyapi.io/
+- https://publicapi.dev/any-api
+- https://github.com/
+- https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA
+- https://github.com/toddmotto
+- https://rapidapi.com/hub
+
+Otentikasi (Auth)
+- Tanpa Otentikasi
+- Key/Token
+- OAuth
+- CORS
+
+
+GET Javascript KeyCode
+- search on google keycode.info
