@@ -1,0 +1,7 @@
+Rest API cURL
+
+API Client
+- file_get_contents()
+- ajax
+- cURL
+
