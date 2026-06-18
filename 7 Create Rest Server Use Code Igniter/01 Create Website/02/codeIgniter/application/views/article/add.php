@@ -50,7 +50,7 @@
 						</select>
 					</div>
 
-					<button type="submit" name="add" class="btn btn-primary float-end mt-5"></button>
+					<button type="submit" name="add" class="btn btn-primary float-end mt-5">Add Data</button>
 
 				</form>
 			  </div>
